@@ -1,0 +1,18 @@
+body{
+    background-color: #24353F;
+}
+
+
+.container {
+    background-color: #24353F;
+ 
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    font-size: 40px;
+  
+   font-weight: 40;
+    color: #17A2B8;
+ 
+    
+}
