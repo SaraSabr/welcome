@@ -2,8 +2,6 @@
 
 const user = JSON.parse(localStorage.getItem('loggedInUser'));
 
-// if the user didn,t regester goto regester page
-
 if (!user) {
     window.location.href = '/index.html';
 
@@ -12,7 +10,6 @@ if (!user) {
     document.getElementById('welcome-message').textContent = `Welcome ${user.name}`;
 }
 
-// logout regester
 document.getElementById('logout').addEventListener('click', function() {
     localStorage.removeItem('loggedInUser');
     window.location.href = './index.html';
